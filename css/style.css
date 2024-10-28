@@ -258,8 +258,8 @@
         padding-bottom: 2px;
     }
     .px-5{
-        padding-left: 0rem !important;
-        padding-right: 0rem !important;
+        padding-left: 0.8rem !important;
+        padding-right: 0.8rem !important;
     }
     .p-3{
         padding: 2px !important;
@@ -458,6 +458,9 @@ body {
     background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, .2));
     object-fit: cover;
     border-radius: 10px;
+}
+.appointment-time{
+    padding: 0 30px;
 }
 /*** Appointment End ***/
 
@@ -697,6 +700,7 @@ body {
 .testimonial .owl-carousel.testimonial-carousel .owl-nav .owl-next:hover {
     color: var(--bs-primary);
 }
+
 /*** testimonial end ***/
 
 /*** Contact Start ***/
@@ -755,6 +759,29 @@ body {
     
     .contact-map iframe {
       height: 250px;
+    }
+    .testimonial p{
+        font-size: 14px !important;
+    }
+    .testimonial h4{
+        font-size: 14px !important;
+    }
+    .testimonial .display-4 h1
+    {
+        font-size: 1rem;
+    }
+    .testimonial .owl-carousel.testimonial-carousel .owl-nav {
+        position: absolute;
+        top: -25px;
+        right: 0;
+        display: flex;
+        font-size: 20px;
+        color: var(--bs-white);
+    }
+    ..navbar .navbar-nav .nav-link {
+        padding-bottom: 3px !important;
+        font-size: 15px;
+        transition: .5s;
     }
   }
   
@@ -821,6 +848,11 @@ body {
         height: 20px;
         padding-right: 2px;
     }
+    .appointment-time{
+        padding: 0 10px;
+        font-size: 16px;
+    }
+    .appointment-time 
 }
 .contact-section {
     display: flex;
@@ -865,6 +897,30 @@ body {
     }
 }
 .text-navbar{
-    font-size: 20px; 
+    font-size: 30px; 
     font-weight: bold;
+}
+.about-image{
+    height: 70vh;
+}
+/* Placeholder text color */
+input::placeholder, 
+textarea::placeholder, 
+select.form-select option::placeholder {
+    color: white !important;
+    opacity: 1 !important;
+}
+
+/* Dropdown and date input color */
+.form-select, 
+.form-control[type="date"] {
+    color: white !important;
+    background-color: transparent !important;
+    border-color: white !important;
+}
+
+/* Placeholder text in select dropdown */
+.form-select option {
+    color: black !important; /* Change as per your requirement */
+    background-color: transparent !important;
 }
