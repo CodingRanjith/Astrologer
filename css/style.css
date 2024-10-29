@@ -1,3 +1,6 @@
+body, html {
+  overflow-x: hidden ;
+}
 
 /*** Spinner Start ***/
 #spinner {
@@ -901,7 +904,7 @@ body {
     font-weight: bold;
 }
 .about-image{
-    height: 70vh;
+    height: 55vh;
 }
 /* Placeholder text color */
 input::placeholder, 
