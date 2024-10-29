@@ -1,7 +1,10 @@
 body, html {
   overflow-x: hidden !important;
 }
-
+img, video {
+    max-width: 100%;
+    height: auto;
+  }
 /*** Spinner Start ***/
 #spinner {
     opacity: 0;
@@ -905,6 +908,7 @@ body {
 }
 .about-image{
     height: 55vh;
+  width: 80%;
 }
 /* Placeholder text color */
 input::placeholder, 
