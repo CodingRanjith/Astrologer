@@ -907,8 +907,8 @@ body {
     font-weight: bold;
 }
 .about-image{
-    height: 55vh;
-  width: 80%;
+    height: 47vh;
+  width: 100%;
 }
 /* Placeholder text color */
 input::placeholder, 
